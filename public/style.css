@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+body {
+  background: url("https://themorningnews.org/images/content/articles/long-list-the-year-in-fiction-2017.png");
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  background-color: #661a1c;
+  color: black;
+  height: 100em;
+  width: 10em;
+  padding: 20px;
+}
